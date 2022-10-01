@@ -1,7 +1,9 @@
-#ifndef FILE_HOLBERTON
-#define FILE_HOLBERTON
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
 
 int _putchar(char c);
-int _atoi(char *s);
+unsigned int coin_count(unsigned int count, int num);
 
-#endif
+#endif /* MAIN_H */

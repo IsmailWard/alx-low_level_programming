@@ -1,15 +1,15 @@
 #include <stdio.h>
-#include "holberton.h"
 
 /**
- * main - print the number of arguments passed to the program
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - prints the number of arguments passed into it
  *
- * Return: Always 0 (Success)
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: int
  */
-int main(int argc, char *argv[] __attribute__((unused)))
+int main(int argc, char *argv[])
 {
+	(void)argv;
 	printf("%d\n", argc - 1);
 	return (0);
 }
